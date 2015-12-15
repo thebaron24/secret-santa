@@ -87,7 +87,7 @@ SecretSanta.prototype = {
             this.DurstenfeldShuffle(this.group);
             this.DurstenfeldShuffle(hat);
             for (i = 0; i < this.group.length; i++) {
-                if ((this.group[i].name == hat[i].name) || (this.group[i].address == hat[i].address) || ((this.group[i].name == "Barry") && (hat[i].name == "Kerry")) || ((this.group[i].name == "Kerry") && (hat[i].name == "Barry")) ){
+                if ((this.group[i].name == hat[i].name) || (this.group[i].address == hat[i].address)){
                     success = false;
                     break;
                 } else {
